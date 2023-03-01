@@ -1,0 +1,38 @@
+[
+    {
+      "SalonId": 1,
+      "SalonName": "vodafon",
+      "SalonDescription": "هي شركة اتصالات بريطانية متعددة الجنسيات. يقع مكتبها ومقرها العالمي في إنجلترا. تدير في",
+      "SalonImage": "assets/images/voda.png"
+    },
+    {
+        "SalonId": 2,
+        "SalonName": "samsung",
+        "SalonDescription": "هي شركة اتصالات بريطانية متعددة الجنسيات. يقع مكتبها ومقرها العالمي في إنجلترا. تدير في",
+        "SalonImage": "assets/images/voda.png"
+    },
+    {
+        "SalonId": 3,
+        "SalonName": "iphone",
+        "SalonDescription": "هي شركة اتصالات بريطانية متعددة الجنسيات. يقع مكتبها ومقرها العالمي في إنجلترا. تدير في",
+        "SalonImage": "assets/images/voda.png"
+    },
+    {
+        "SalonId": 4,
+        "SalonName": "condor",
+        "SalonDescription": "هي شركة اتصالات بريطانية متعددة الجنسيات. يقع مكتبها ومقرها العالمي في إنجلترا. تدير في",
+        "SalonImage": "assets/images/voda.png"
+    },
+    {
+        "SalonId": 5,
+        "SalonName": "nokia",
+        "SalonDescription": "هي شركة اتصالات بريطانية متعددة الجنسيات. يقع مكتبها ومقرها العالمي في إنجلترا. تدير في",
+        "SalonImage": "assets/images/voda.png"
+    },
+    {
+        "SalonId": 5,
+        "SalonName": "oppo",
+        "SalonDescription": "هي شركة اتصالات بريطانية متعددة الجنسيات. يقع مكتبها ومقرها العالمي في إنجلترا. تدير في",
+        "SalonImage": "assets/images/voda.png"
+    }
+]

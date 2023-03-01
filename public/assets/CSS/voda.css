@@ -1,0 +1,104 @@
+
+ .description{
+    background-image: url(images/orgProfile.png);
+    height: 500px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 9%;
+ }
+
+ .Info{
+    width: 70%;
+    text-align: right;
+    background: white;
+    height: 50%;
+    padding: 2%;
+    border-radius: 30px;
+    box-shadow: 0 0.75218px 35px #00000017;
+ }
+
+ .logoCatalogue{
+   display: flex;
+   width: 20%;
+   text-align: center;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .logoCatalogue img{
+    width: 40%;
+    border: 8px solid white;
+    border-radius: 13px;
+ }
+
+ .Info h3{
+    color: #515151;
+    font-size: 18px;
+ }
+
+ .Info p{
+    color: #344a60;
+    font-size: 16px;
+ }
+
+ .logoCatalogue h2{
+    color: #3a3a3a;
+    font-size: 26px;
+ }
+
+ .logoCatalogue p{
+    color: #344a60;
+    font-size: 18px;
+ }
+
+ .foot2{
+    background-color: #172C42;
+    display: flex;
+    padding: 1%;
+    margin-top: 8px;
+ }
+
+ .foot2 ul li{
+    color:white;
+    padding: 0 3%;
+    font-size: 13px;
+ }
+
+ .foot2 ul li:hover{
+    color:#FD7702;
+    cursor: pointer;
+ } 
+
+ .foot2 ul img{
+    width: 20px;
+    filter: brightness(0) invert(1);
+ }
+
+ .listOne{
+    display: flex;
+    width: 50%;
+ }
+
+ .listTwo{
+    display: flex;
+    width: 114%;
+    justify-content: flex-end;
+ }
+
+ .listTwo li .test{
+   font-size: 13px;
+ }
+
+ @media screen and (max-width:700px){
+
+   .description {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+ 
+}
+
+
+

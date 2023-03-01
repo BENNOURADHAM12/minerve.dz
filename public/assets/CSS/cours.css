@@ -1,0 +1,96 @@
+
+.iframe1{
+    background-color: red;
+}
+
+.iframe2{
+    background-color: green;
+    display: none;
+}
+
+body{
+    background: #EEF0F1;
+}
+
+h3{
+    text-align: right;
+    padding-right: 4%;
+    padding-top: 3%;
+}
+
+.cours1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+    padding-bottom: 4%;
+    height: 100%;
+    margin-top: 00%;
+}
+
+.coursInfo{
+    width: 60%;
+}
+
+.coursInfo iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+.dawra{
+    width: 35%;
+}
+
+td{
+    padding: 3% 2%
+}
+
+table{
+    background: #F7F8FA;
+    width: 100%;
+}
+
+table{
+    border: 1px solid lightgray;
+    border-bottom: none;
+}
+
+th, td{
+    border-bottom: 1px solid lightgray;
+    padding: 3% 2%;
+    text-align: right;
+}
+
+td:hover{
+ cursor: pointer;
+}
+
+@media screen and (max-width:860px){
+
+    .cours{
+        flex-direction: column;
+    }
+
+    .coursInfo {
+        width: 100%;
+        margin: auto;
+    }
+
+    .dawra {
+        width: 90%;
+        margin: auto;
+        font-size: 13px;
+    }
+
+    h3{
+        font-size: 14px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+ 
+}

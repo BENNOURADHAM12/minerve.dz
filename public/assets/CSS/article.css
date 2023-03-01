@@ -1,0 +1,8 @@
+
+#articleone, #articletwo, #articlethree, #articlefour, #articlefive, #articlesix{
+   display: none;
+}
+
+.list-article{
+   z-index: 10;
+}

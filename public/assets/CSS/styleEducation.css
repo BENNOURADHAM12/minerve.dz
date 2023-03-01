@@ -1,0 +1,419 @@
+
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "SEC1 SEC2 SEC3"
+      "SEC1 SEC4 SEC4";
+      margin-top: 50px;
+      margin-left:30px;
+  }
+  
+  .SEC1 { grid-area: SEC1; }
+  
+  .SEC2 { grid-area: SEC2; }
+  
+  .SEC4 { grid-area: SEC4; }
+  
+  .SEC3 { grid-area: SEC3; }
+  
+  .SEC5 { grid-area: SEC5; }
+
+  .SEC1 {
+    grid-area: SEC1;
+    background: #F3F8FA;
+    padding: 50px;
+    width: 360px;
+    height: 440px;
+    margin: 50px;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0.75218px 8px #00000017;
+}
+
+.SEC2 {
+    grid-area: SEC2;
+    background: #F3F8FA;
+    height: 200px;
+    margin-top: 12%;
+    margin-left: -8%;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0.75218px 8px #00000017;
+}
+
+.SEC4 {
+    grid-area: SEC4;
+    background: #F3F8FA;
+    height: 219px;
+    margin-left: -4%;
+    width: 773px;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0.75218px 8px #00000017;
+}
+
+.SEC3 {
+    grid-area: SEC3;
+    background: #F3F8FA;
+    height: 200px;
+    margin-top: 12%;
+    margin-left: 3%;
+    width:295px;display: grid;
+    place-items: center;
+    box-shadow: 0 0.75218px 8px #00000017;
+    padding:12px
+}
+
+
+
+.security{
+    background-color: #EEF0F1;
+    padding-top:4%;
+}
+
+.container .SEC1 img{
+    width:35%
+}
+
+.container .SEC2 img{
+    width:15%
+}
+
+.container .SEC3 img{
+    width:15%
+}
+
+.container .SEC4 img{
+    width:10%
+}
+
+.security h1 {
+    font-size: 40px;
+    position: relative;
+    padding-bottom: 2%;
+    color: #454545;
+    text-align: center;
+}
+
+.security .container h2{
+    color: #454545;
+    font-size: 25px;
+    text-align: center;
+}
+
+.security .container p{
+    color: #5e5e5e;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.security h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 145px;
+    height: 3px;
+    background: #ddd;
+    bottom: 20px;
+    left: calc(50% - 60px);
+}
+
+.security h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 45px;
+    height: 6px;
+    background: #FD7702;
+    bottom: 18px;
+    left: calc(50% - 10px);
+}
+
+.security p {
+    color: #858585;
+    font-size: 20px;
+    text-align: center;
+}
+
+.security{
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+.container { 
+    margin-top: -5px;
+}
+
+.one{
+    display: flex;
+    justify-content: space-around;
+    margin-top:4%;
+    flex-wrap: wrap;
+}
+
+.cours{
+    margin-top: -20%;
+}
+
+.cours .cours1 .one .card{
+    width:20%;
+    text-align: center;
+    background: #F3F8FA;
+    box-shadow: 0 0.75218px 8px #00000017;
+    border-radius: 20px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one .card {
+    height: 380px;
+    padding: 1%;
+    height: 100%;
+}
+
+.one .card img{
+    max-width: 94%;
+    display: block;
+    margin: auto;
+    border-radius: 17px;
+}
+
+.cours .one .card a{
+    color:black
+}
+
+.cours .one .card a:hover{
+    color:#FD7702
+}
+
+.prof{
+    padding-bottom: 10%;
+}
+
+.one .card .prof h2{
+    text-align: center;
+}
+
+.prof img{
+    width: 17%;
+}
+
+h4{
+    color: #3a3a3a;
+    font-size: 15px;
+    padding: 7%;
+}
+
+.card{
+    transition: .5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.cours2{
+    margin-top:10%
+}
+
+@media screen and (max-width:860px){
+
+   .security{
+    height: 100%;
+   } 
+
+  .security h1{
+    font-size: 25px;
+    padding-bottom: 7%;
+  }
+  .security p{
+    font-size: 14px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 7%;
+    margin-bottom: 25%;
+    margin-left: 0;
+    align-items: center;
+    justify-content: space-around
+  }
+
+  .SEC1 {
+    grid-area: SEC1;
+    background: #F3F8FA;
+    padding: 50px;
+    width: 80%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0.75218px 8px #00000017;
+    margin:0
+}
+
+.SEC2 {
+    grid-area: SEC2;
+    background: #F3F8FA;
+    display: grid;
+    width: 80%;
+    height: 100%;
+    place-items: center;
+    box-shadow: 0 0.75218px 8px #00000017;
+    margin-top: 10%;
+    padding: 50px;
+    margin-left: 0;
+}
+
+.SEC4 {
+    grid-area: SEC4;
+    background: #F3F8FA;
+    width: 80%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0.75218px 8px #00000017;
+    padding: 50px;
+    margin-top: 10%;
+    margin-left: 0;
+}
+
+.SEC3 {
+    grid-area: SEC3;
+    background: #F3F8FA;
+    height: 100%;
+    margin-top: 10%;
+    width: 80%;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0.75218px 8px #00000017;
+    padding: 50px;
+    margin-left: 0;
+}
+
+.container .SEC1 img{
+    width: 15%;
+}
+
+.cours .cours1 .one .card{
+    margin-bottom: 5%;
+    width:70%
+}
+
+.security .container p{
+    font-size: 14px;
+}
+
+.security .container h2{
+    font-size:20px;
+}
+
+}
+
+@media screen and (min-width: 861px) and (max-width: 1140px) {
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 7%;
+        margin-bottom: 25%;
+        margin-left: 0;
+        align-items: center;
+        justify-content: space-around
+    }
+
+    .SEC1 {
+        grid-area: SEC1;
+        background: #F3F8FA;
+        padding: 50px;
+        width: 45%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        box-shadow: 0 0.75218px 8px #00000017;
+        margin: 0;
+    }
+
+    .SEC2 {
+        grid-area: SEC2;
+        background: #F3F8FA;
+        display: grid;
+        width: 45%;
+        height: 100%;
+        place-items: center;
+        box-shadow: 0 0.75218px 8px #00000017;
+        margin-top: 0%;
+        padding: 50px;
+        margin-left: 0;
+    }
+
+    .SEC4 {
+        grid-area: SEC4;
+        background: #F3F8FA;
+        width: 45%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        box-shadow: 0 0.75218px 8px #00000017;
+        padding: 50px;
+        margin-top: 10%;
+        margin-left: 0;
+    }
+
+    .SEC3 {
+        grid-area: SEC3;
+        background: #F3F8FA;
+        height: 100%;
+        margin-top: 10%;
+        width: 45%;
+        display: grid;
+        place-items: center;
+        box-shadow: 0 0.75218px 8px #00000017;
+        padding: 50px;
+        margin-left: 0;
+    }
+
+    .container .SEC1 img {
+        width: 15%;
+    }
+
+    .cours .cours1 .one .card{
+        margin-bottom: 5%;
+        width:30%;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

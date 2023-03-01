@@ -1,0 +1,32 @@
+[
+    {
+      "CatalogueId": 1,
+      "CatalogueName": "vodafon",
+      "CatalogueDescription": "هي شركة اتصالات بريطانية متعددة الجنسيات. يقع مكتبها ومقرها العالمي في إنجلترا. تدير في",
+      "CatalogueImage": "assets/images/voda.png"
+    },
+    {
+        "CatalogueId": 2,
+        "CatalogueName": "samsung",
+        "CatalogueDescription": "هي شركة اتصالات بريطانية متعددة الجنسيات. يقع مكتبها ومقرها العالمي في إنجلترا. تدير في",
+        "CatalogueImage": "assets/images/voda.png"
+    },
+    {
+        "CatalogueId": 3,
+        "CatalogueName": "iphone",
+        "CatalogueDescription": "هي شركة اتصالات بريطانية متعددة الجنسيات. يقع مكتبها ومقرها العالمي في إنجلترا. تدير في",
+        "CatalogueImage": "assets/images/voda.png"
+    },
+    {
+        "CatalogueId": 4,
+        "CatalogueName": "condor",
+        "CatalogueDescription": "هي شركة اتصالات بريطانية متعددة الجنسيات. يقع مكتبها ومقرها العالمي في إنجلترا. تدير في",
+        "CatalogueImage": "assets/images/voda.png"
+    },
+    {
+        "CatalogueId": 5,
+        "CatalogueName": "nokia",
+        "CatalogueDescription": "هي شركة اتصالات بريطانية متعددة الجنسيات. يقع مكتبها ومقرها العالمي في إنجلترا. تدير في",
+        "CatalogueImage": "assets/images/voda.png"
+    }
+]
